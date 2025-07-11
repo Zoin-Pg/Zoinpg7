@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Pagamento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form class="formulario">
+      <div class="coluna">
+        <h2>1 - Dados cadastrais</h2>
+        <label><input type="radio" name="nacionalidade" checked> Brasileiro</label>
+        <label><input type="radio" name="nacionalidade"> Estrangeiro</label>
+        <input type="text" placeholder="Digite seu nome completo">
+        <input type="email" placeholder="Digite seu melhor e-mail">
+        <input type="text" placeholder="Celular com DDD">
+        <input type="text" placeholder="CPF/CNPJ">
+      </div>
+
+      <div class="coluna">
+        <h2>2 - Selecionar Pagamento</h2>
+        <div class="bandeiras">
+          <img src="https://img.icons8.com/color/48/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/amex.png" alt="Amex">
+          <img src="https://img.icons8.com/color/48/discover.png" alt="Discover">
+          <img src="https://img.icons8.com/color/48/diners-club.png" alt="Diners">
+          <img src="https://img.icons8.com/color/48/hipercard.png" alt="Hipercard">
+          <img src="https://img.icons8.com/color/48/barcode.png" alt="Boleto">
+        </div>
+
+        <input type="text" placeholder="Número do cartão">
+        <input type="text" placeholder="Nome impresso no cartão">
+
+        <div class="linha-horizontal">
+          <select>
+            <option value="07">07</option>
+            <!-- outros meses -->
+          </select>
+          <select>
+            <option value="2018">2018</option>
+            <!-- outros anos -->
+          </select>
+          <input type="text" placeholder="CVV">
+        </div>
+
+        <select>
+          <option>1x de R$ 339,00</option>
+          <!-- outras opções -->
+        </select>
+
+        <p><a href="#">Possui cupom de desconto? clique aqui</a></p>
+
+        <button type="submit">Comprar Agora</button>
+
+        <div class="seguro">
+          <p>✅ VOCÊ ESTÁ EM <strong>AMBIENTE SEGURO</strong></p>
+          <small>SSL Criptografia 128 bits</small>
+        </div>
+        <p class="nota">- Este é um produto digital, você receberá os dados para acessá-lo via internet.</p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
